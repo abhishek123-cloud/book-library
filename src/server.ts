@@ -34,7 +34,7 @@ initializeSocket(server);
 (async () => {
   try {
     const data = await fetchAndAggregateData();
-    console.log('Aggregated Data:', JSON.stringify(data, null, 2));
+    // console.log('Aggregated Data:', JSON.stringify(data, null, 2));
   } catch (error: any) {
     console.error("Error:", error.message);
   }
